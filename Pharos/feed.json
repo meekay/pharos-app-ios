@@ -1,0 +1,59 @@
+{
+    "questions": [
+    {
+        "askUser": {
+            "id": 1,
+            "name": "Phillip Tribe",
+            "role": "Volunteer - DNR",
+            "avatar": "ptribe.png",
+        },
+        "question": "What is the best way to pass the boredom?",
+        "answerUser": {
+            "id": 2,
+            "name": "Gary Oldman",
+            "role": "Volunteer - Drs w/o Borders",
+            "avatar": "goldman.png"
+        },
+        "videoUri": "video1.mov",
+        "likes": 120,
+        "views": 1405,
+        "tags": [
+          "Topic 1",
+          "Long Topic 2",
+          "Really Long Topic 3",
+          "Is Anyone Still Reading This?",
+          "I'll Show Myself Out"
+        ],
+        "comments": [
+          {
+            "fromUser": {
+              "id": 3,
+              "name": "Taylor Swift",
+              "avatar": "tswift.png",
+            },
+            "text": "This is very useful, thanks for sharing.",
+          },
+          {
+            "fromUser": {
+              "id": 4,
+              "name": "Nick Jonas",
+              "avatar": "njonas.png",
+            },
+            "text": "There are some great resources related to this question. Check 'em out.",
+            "resources": [
+              {
+                "id": 1,
+                "title": "Fun & Games on a budget",
+                "uri": "http://example.com",
+              },
+              {
+                "id": 2,
+                "title": "Online learning resources",
+                "uri": "http://example.com",
+              }
+            ]
+          }
+        ]
+    }
+    ]
+}
