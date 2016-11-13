@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1737BE3923CBF367B6C92E91 /* Pods_Pharos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E9B15501189B46D9C89B5 /* Pods_Pharos.framework */; };
 		B5EDDA9217C7AD7F7F19D37B /* Pods_PharosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B65D25F152FDB4BF66C872 /* Pods_PharosTests.framework */; };
+		E09025B81DD829CE002EF1C3 /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = E09025B71DD829CE002EF1C3 /* feed.json */; };
 		E092EC171DD7F583000DE1F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092EC161DD7F583000DE1F2 /* AppDelegate.swift */; };
 		E092EC191DD7F583000DE1F2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092EC181DD7F583000DE1F2 /* FirstViewController.swift */; };
 		E092EC1B1DD7F583000DE1F2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092EC1A1DD7F583000DE1F2 /* SecondViewController.swift */; };
@@ -38,6 +39,7 @@
 		BD7E24A60DD576D410E55519 /* Pods-Pharos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pharos/Pods-Pharos.debug.xcconfig"; sourceTree = "<group>"; };
 		C8E28F23B5EFBCEFCC040FB8 /* Pods-Pharos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pharos/Pods-Pharos.release.xcconfig"; sourceTree = "<group>"; };
 		CC47CC2745E7C39D0328B192 /* Pods-PharosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PharosTests/Pods-PharosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E09025B71DD829CE002EF1C3 /* feed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
 		E092EC131DD7F583000DE1F2 /* Pharos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E092EC161DD7F583000DE1F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E092EC181DD7F583000DE1F2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		E092EC151DD7F583000DE1F2 /* Pharos */ = {
 			isa = PBXGroup;
 			children = (
+				E09025B71DD829CE002EF1C3 /* feed.json */,
 				E092EC161DD7F583000DE1F2 /* AppDelegate.swift */,
 				E092EC181DD7F583000DE1F2 /* FirstViewController.swift */,
 				E092EC1A1DD7F583000DE1F2 /* SecondViewController.swift */,
@@ -236,6 +239,7 @@
 			files = (
 				E0AECBCB1DD80756003735F1 /* mahmoud-bombs.mov in Resources */,
 				E092EC231DD7F583000DE1F2 /* LaunchScreen.storyboard in Resources */,
+				E09025B81DD829CE002EF1C3 /* feed.json in Resources */,
 				E092EC201DD7F583000DE1F2 /* Assets.xcassets in Resources */,
 				E092EC1E1DD7F583000DE1F2 /* Main.storyboard in Resources */,
 			);
