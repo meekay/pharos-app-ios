@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AnswerViewController.viewDidLoad() -&gt; ():AnswerViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "playerDummyView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "questionBackView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AnswerViewController.viewDidLayoutSubviews() -&gt; ():AnswerViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.playerController.view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

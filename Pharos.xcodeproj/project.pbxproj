@@ -14,6 +14,10 @@
 		E092EC201DD7F583000DE1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E092EC1F1DD7F583000DE1F2 /* Assets.xcassets */; };
 		E092EC231DD7F583000DE1F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E092EC211DD7F583000DE1F2 /* LaunchScreen.storyboard */; };
 		E092EC2E1DD7F583000DE1F2 /* PharosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092EC2D1DD7F583000DE1F2 /* PharosTests.swift */; };
+		E0AECBC51DD7F951003735F1 /* FeedCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AECBC41DD7F951003735F1 /* FeedCardTableViewCell.swift */; };
+		E0AECBC71DD7F9FE003735F1 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AECBC61DD7F9FE003735F1 /* FeedTableViewController.swift */; };
+		E0AECBC91DD803DA003735F1 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AECBC81DD803DA003735F1 /* AnswerViewController.swift */; };
+		E0AECBCB1DD80756003735F1 /* mahmoud-bombs.mov in Resources */ = {isa = PBXBuildFile; fileRef = E0AECBCA1DD80756003735F1 /* mahmoud-bombs.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		E092EC291DD7F583000DE1F2 /* PharosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E092EC2D1DD7F583000DE1F2 /* PharosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharosTests.swift; sourceTree = "<group>"; };
 		E092EC2F1DD7F583000DE1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AECBC41DD7F951003735F1 /* FeedCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCardTableViewCell.swift; sourceTree = "<group>"; };
+		E0AECBC61DD7F9FE003735F1 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		E0AECBC81DD803DA003735F1 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		E0AECBCA1DD80756003735F1 /* mahmoud-bombs.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "mahmoud-bombs.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +92,12 @@
 				E092EC1A1DD7F583000DE1F2 /* SecondViewController.swift */,
 				E092EC1C1DD7F583000DE1F2 /* Main.storyboard */,
 				E092EC1F1DD7F583000DE1F2 /* Assets.xcassets */,
+				E0AECBCA1DD80756003735F1 /* mahmoud-bombs.mov */,
 				E092EC211DD7F583000DE1F2 /* LaunchScreen.storyboard */,
 				E092EC241DD7F583000DE1F2 /* Info.plist */,
+				E0AECBC41DD7F951003735F1 /* FeedCardTableViewCell.swift */,
+				E0AECBC61DD7F9FE003735F1 /* FeedTableViewController.swift */,
+				E0AECBC81DD803DA003735F1 /* AnswerViewController.swift */,
 			);
 			path = Pharos;
 			sourceTree = "<group>";
@@ -184,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AECBCB1DD80756003735F1 /* mahmoud-bombs.mov in Resources */,
 				E092EC231DD7F583000DE1F2 /* LaunchScreen.storyboard in Resources */,
 				E092EC201DD7F583000DE1F2 /* Assets.xcassets in Resources */,
 				E092EC1E1DD7F583000DE1F2 /* Main.storyboard in Resources */,
@@ -204,9 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AECBC91DD803DA003735F1 /* AnswerViewController.swift in Sources */,
 				E092EC1B1DD7F583000DE1F2 /* SecondViewController.swift in Sources */,
 				E092EC171DD7F583000DE1F2 /* AppDelegate.swift in Sources */,
+				E0AECBC71DD7F9FE003735F1 /* FeedTableViewController.swift in Sources */,
 				E092EC191DD7F583000DE1F2 /* FirstViewController.swift in Sources */,
+				E0AECBC51DD7F951003735F1 /* FeedCardTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +432,7 @@
 				E092EC341DD7F583000DE1F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E092EC351DD7F583000DE1F2 /* Build configuration list for PBXNativeTarget "PharosTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				E092EC371DD7F583000DE1F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
